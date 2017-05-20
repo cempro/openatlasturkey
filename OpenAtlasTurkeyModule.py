@@ -412,13 +412,17 @@ class OpenAtlasTurkey:
                 pass
                 
         def Show_About():
+            #self.dlgabout.exec_()
             self.dlgabout.show() 
-            self.dlgabout.exec_()
             
         def CloseFunction():
-            self.dlg.close()                
+            self.dlg.close()
+
+        def AboutCloseFunction():
+            self.dlgabout.close()              
   
         self.dlg.LoadLayer.clicked.connect(LoadLayerFunc)
         self.dlg.AboutButton.clicked.connect(Show_About)   
         self.dlg.CloseButton.clicked.connect(CloseFunction) 
+        self.dlgabout.AboutCloseButton.clicked.connect(AboutCloseFunction) 
 

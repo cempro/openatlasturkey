@@ -44,7 +44,7 @@
   <property name="modal">
    <bool>true</bool>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="AboutCloseButton">
    <property name="geometry">
     <rect>
      <x>320</x>
@@ -54,7 +54,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Close</string>
+    <string>Kapat / Close</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_05">
@@ -193,22 +193,5 @@ p, li { white-space: pre-wrap; }
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>FormAbout</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>320</x>
-     <y>150</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>279</x>
-     <y>154</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

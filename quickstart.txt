@@ -1,0 +1,17 @@
+1. Install the plugin either from plugin manager or reside "OpenAtlasTurkey" under the proper location depending your O.S. 
+(e.g. for Windows reside it under C:\Users\%YOUR_USER_NAME½\.qgis2\python\plugins\)
+
+2. Once installed it will be listed under Web menu and also as an icon on plugins toolbar. 
+(Do not forget to enable it from plugin manaeger)
+
+3. Once you click on the plugin icon a list of avaliable service will be listed. Choose desired service and click "Add Layer" button.
+(A list of avaliable services are stored in the "data_sources.csv" file that resides in the installation directory. You may edit based on your needs.)
+
+4. Once you click on a service (dataset) and click add button, plugin first queries the service address to determine the # of layer provided in that address. 
+(Plugin determines the # of layer in a service with the standart OGC GetCapabilities command.)
+
+5. This is the initial release, I hope more services will be added soon.
+
+Keep on using QGIS ;)
+Best wishes.
+Cem GULLUOGLU 
