@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Open Atlas Turkey
+qgisMinimumVersion=2.0
+description=OpenAtlasTurkey plugin provides collection of publicly available geospatial datasets for Turkey.
+version=0.1
+author=Dr. Cem GULLUOGLU
+email=cemgulluoglu@gmail.com
+
+about=OpenAtlasTurkey plugin provides collection of publicly available geospatial datasets for Turkey based on OGC compliant web services.
+
+tracker=https://github.com/cempro/openatlasturkey/issues
+repository=https://github.com/cempro/openatlasturkey
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=turkey, atlas, open data, ogc, wms
+
+homepage=https://github.com/cempro/openatlasturkey/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
